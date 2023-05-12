@@ -13,8 +13,7 @@ public class A1103356_0505_1 {
             if (j == prize[i]) {
                 System.out.println("中獎");
             } else if ((j > 49) || (j < 1)) {
-                throw new IllegalArgumentException("超過範圍");
-                    
+                throw new IllegalArgumentException("超過範圍")                   
             } else {
                 System.out.println("未中獎");
             }
